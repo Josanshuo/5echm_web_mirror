@@ -18,7 +18,7 @@ html,body {
 function syn(){
 if(parent.nav.tree){
  if(parent.nav.tree.loaded){
-  parent.nav.tree.selectNode(711);
+  parent.nav.tree.selectNode(702);
  }else{
   setTimeout("syn()",500);
 }
@@ -49,7 +49,7 @@ cellPadding=2 width=400 align=center><TR><TD width=100><P align=center><STRONG>�
 <TD bgColor=#f2d6ca width=100><P align=center>强酸</P></TD>
 <TD bgColor=#f2d6ca><P align=center>8盎司</P></TD>
 <TD width=30></TD><TD bgColor=#f2d6ca width=100>
-<P align=center>油</P></TD><TD bgColor=#f2d6ca>
+<P align=center>油（灯油）</P></TD><TD bgColor=#f2d6ca>
 <P align=center>1夸脱</P></TD></TR><TR>
 <TD width=100><P align=center>基础毒药</P></TD>
 <TD><P align=center>1/2盎司</P></TD><TD width=30>       
@@ -367,23 +367,22 @@ cellPadding=2 width=999 >
       <P align=center>梅花2</P></TD>
     <TD><STRONG>狗头人kobold</STRONG></TD></TR></TABLE> 
 </P>
-<P></P><STRONG><FONT color=#800000>
+<P></P>
 <P align=center>
 <TABLE style="WIDTH: 300px; BORDER-COLLAPSE: collapse" cellSpacing=0 
 cellPadding=2 width=300 >
   <TBODY>
-  
   <TR>
     <TD width=100>
       <P align=center>&nbsp;<STRONG>扑克牌</STRONG></P></TD>
     <TD>&nbsp;<STRONG>幻象</STRONG></TD></TR> 
-</FONT></STRONG>
   <TR>
     <TD width=100 bgColor=#f2d6ca>
       <P align=center>&nbsp;王（2张）</P></TD>
-    <TD bgColor=#f2d6ca>&nbsp;你（牌组的所有者）</TD></TR></TBODY></TABLE></P><STRONG><FONT color=#800000>
-<P>漂浮之球 
-Driftglobe</FONT></STRONG><BR><EM>奇物，非普通</EM><BR>这个厚玻璃制成的小球重1磅。在它周围60尺内，你可以说出命令语以使它施展 <EM><FONT color=#800080>光亮术light </FONT></EM>或 <EM><FONT color=#800080>昼明术daylight 
+    <TD bgColor=#f2d6ca>&nbsp;你（牌组的所有者）</TD></TR></TBODY></TABLE></P>
+
+<P><STRONG><FONT color=#800000>漂浮之球 Driftglobe</FONT></STRONG><BR>
+<EM>奇物，非普通</EM><BR>这个厚玻璃制成的小球重1磅。在它周围60尺内，你可以说出命令语以使它施展 <EM><FONT color=#800080>光亮术light </FONT></EM>或 <EM><FONT color=#800080>昼明术daylight 
 </FONT></EM>。使用一次后直至次日黎明前，<EM><FONT color=#800080>昼明术daylight</FONT></EM> 
 效应将无法再次使用。<BR>你可以用一个动作来说出另一个命令语，以让发光球体飞到空中，漂浮在离地面不超过5尺的地方。球体将持续漂浮在空中，直到你或另一生物将它抓住。如果你离开球体周围60尺范围，则它将沿最短路径跟随你移动直到距离你60尺为止。如果它的移动遭到妨碍，它将闪烁着落回地面并回到启动前的状态。</P>
 <P><STRONG><FONT color=#800000>无尽烟壶 Eversmoking 
@@ -419,5 +418,67 @@ Stones</FONT></STRONG><BR><EM>奇物，非普通</EM><BR>传讯石由两块经�
 (Luckstone)</FONT></STRONG><BR><EM>奇物，非普通（需同调）</EM><BR>携带着这块光亮的玛瑙带在身上期间，你在属性检定和豁免获得+1加值。</P>
 <P><STRONG><FONT color=#800000>造风之扇 Wind 
 Fan</FONT></STRONG><BR><EM>奇物，非普通</EM><BR>持握这把扇子期间，你可以用一个动作施展造风术gust of wind（豁免DC 
-13）。使用扇子后，在次日黎明前每次再次启动它都会累加20%的失败概率。失败时，扇子也将被撕裂成无魔法的废纸。</P></body>
+13）。使用扇子后，在次日黎明前每次再次启动它都会累加20%的失败概率。失败时，扇子也将被撕裂成无魔法的废纸。</P>
+<P><STRONG><FONT color=#800000>无踪粉 Dust of Disappearance</FONT></STRONG> <BR>奇物，非普通<BR>这是一些装在小包里的细沙般的粉末，其分量足够使用一次。你可以用一个动作将粉末洒向空中，骰一次2d4，使得你和你周围10尺内的生物和物件 
+<STRONG>隐形Invisible</STRONG>骰出结果数分钟。粉末一经使用即被消耗。如果一名受影响的生物发动攻击或者施展法术，则该生物的隐形效应也随之终止。</P>
+<P><STRONG><FONT color=#800000>干燥粉 Dust of Dryness</FONT></STRONG> <BR>
+<EM>
+奇物，非普通
+</EM>
+<BR>
+这个小包里共装着1d6+4把粉末。你可以用一个动作将一把粉末洒到水面上。粉末将把15尺立方区域的水变成一个弹珠大小的小球，漂浮或停止在粉末被洒下的位置附近。小球的重量可以忽略不计。
+<BR>任一生物可以用一个动作将小球摔在某个结实表面，以令小球破碎并释放其中的水分。同时使小球失去其魔力。
+<BR >
+ 身体大部分由水组成的元素生物在接触到一把干燥粉时必须进行一次DC 
+13的体质豁免，失败则受到10d6点黯蚀伤害，成功则只受半数伤害。</P>
+<P >
+
+<STRONG>
+<FONT color=#800000>喷嚏粉 Dust of Sneezing and Choking</FONT></STRONG><BR><EM >  
+奇物，非普通</EM><BR>这种细沙般的粉末通常被装在小盒子里，其分量足够使用一次。这种粉末看起来像是<EM><FONT color=#800080>无踪粉dust of 
+disappearance</FONT></EM>，对其施展<EM><FONT color=#800080>鉴定术identify</FONT></EM>也会给出这样的结果。你可以用一个动作把这种粉末洒向空中。此时，你和你周围30尺内任何需要呼吸的生物必须进行一次DC 
+15的体质豁免，失败者将因不停打喷嚏而无法呼吸。受此影响的生物将陷入 
+<STRONG>失能Incapacitated</STRONG> 
+并窒息。只要受影响的生物依然清醒，它就能在每次自己的回合结束时再次进行该豁免。一旦豁免成功，其自己身上的效应也将随之终止。法术<EM ><FONT color=#800080>次级复原术lesser 
+restoration</FONT></EM> 也可以终止一名生物身上的该效应。</P><P ><STRONG ><FONT color=#800000>元素宝石 Elemental Gem</FONT></STRONG><BR>
+<EM >奇物，非普通</EM><BR>这种宝石蕴藏着操纵元素的能量。你可以用一个动作来打碎宝石，其效应等同于你施展法术 
+<EM ><FONT color=#800080>
+元素咒唤术conjure 
+elemental</FONT></EM> 一样，召唤出一个元素。被打碎的宝石也将失去魔力。宝石的种类决定了法术所召唤的元素。</P>
+<P align=center><TABLE style="WIDTH: 400px; BORDER-COLLAPSE: collapse" cellSpacing=0 
+cellPadding=2 width=400>
+<TR><TD><P align=center><STRONG>宝石</STRONG></P></TD><TD>
+<P align=center ><STRONG 
+      >召唤的元素</STRONG></P></TD></TR>
+<TR ><TD bgColor=#f2d6ca>
+<P align=center>蓝色蓝宝石blue sapphire</P></TD><TD bgColor=#f2d6ca >
+<P align=center><STRONG >
+气元素Air 
+      Elemental</STRONG></P></TD></TR>
+<TR ><TD>
+<P align=center>黄钻石yellow diamond</P></TD><TD>
+<P align=center><STRONG >土元素Earth 
+      Elemental</STRONG></P></TD></TR><TR><TD bgColor=#f2d6ca><P align=center>红刚玉red corundum</P></TD><TD bgColor=#f2d6ca>
+<P align=center><STRONG>火元素Fire 
+      Elemental</STRONG></P></TD>       
+</TR><TR><TD><P align=center>祖母绿emerald</P></TD><TD><P align=center>
+<STRONG >
+ 水元素Water 
+      Elemental   
+</STRONG></P></TD>   
+</TR></TABLE></P>
+<P ><STRONG ><FONT color=#800000>  
+光彩夺目宝石 Gem of Brightness<BR>  
+</FONT></STRONG><EM >奇物，非普通</EM><BR >这块棱形宝石有50发充能。持握该宝石时，你可以用一个动作说出宝石的三个命令语之一并造成如下效应：</P><BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr><P 
+  >第一个命令语令宝石发出亮光，提供30尺的明亮光照和其外30尺的微光光照。此效应将持续到你用一个附赠动作再次说出该命令语，或你使用宝石的另一能力为止。这种用法不会消耗充能。</P><P>第二个命令语消耗1发充能，令宝石向60尺内你能看见的一个生物发出一道耀眼的光束。该生物必须成功通过一次DC 
+  15的体质豁免否则陷入 
+<STRONG >   目盲Blinded</STRONG> 
+  1分钟。该生物在每次它自己的回合结束时可以再次进行该豁免，成功则目盲状态终止。</P>   <P 
+  >第三个命令语消耗5发充能，令宝石以自身为原点对30尺锥状范围放出刺眼的光芒。范围内的每个生物必须成功通过与第二项功能相同作用的豁免。</P></BLOCKQUOTE><P>
+耗尽充能后，此宝石变为价值50gp的普通宝石。</P>
+<P ><STRONG>
+<FONT color=#800000 >卡夫统灵药 Keoghtom's Ointment</FONT></STRONG><BR >
+<EM >奇物，非普通<BR ></EM>这个直径3寸的玻璃瓶中装着1d4+1剂闻起来隐约有芦荟气味的混合剂。瓶子和混合剂共重1/2磅。
+<BR > 用一个动作可以吞下或外敷一剂软膏。软膏将为使用它的生物恢复2d8+2的生命值，并解除它正遭受的<STRONG >
+ 中毒Poisoned</STRONG>状态，治愈它身上的所有疾病。</P></body>
 </html>
